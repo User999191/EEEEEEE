@@ -27,8 +27,8 @@ player.CharacterRemoving:Connect(function()
 end)
 _G.KEY = "q" -- the key is q to use when u see the green dot means it lock on to them!
 		_G.PART = "HumanoidRootPart"
-		_G.PRED = 0.057
-		_G.Frame = Vector3.new(0, 0.53, 0)
+		_G.PRED = 0.058
+		_G.Frame = Vector3.new(2, 0.54, 0)
 		local L_76_ = game:GetService "Workspace".CurrentCamera
 		local L_77_
 		local L_78_ = false
@@ -43,7 +43,7 @@ _G.KEY = "q" -- the key is q to use when u see the green dot means it lock on to
 			L_91_.Size = UDim2.new(L_89_arg3, L_90_arg4, L_89_arg3, L_90_arg4)
 			L_91_.AlwaysOnTop = true
 			local L_92_ = Instance.new("Frame", L_91_)
-			L_92_.Size = UDim2.new(4, 0, 4, 0)
+			L_92_.Size = UDim2.new(9, 0, 9, 0)
 			L_92_.BackgroundTransparency = 0.1
 			L_92_.BackgroundColor3 = L_88_arg2
 			local L_93_ = Instance.new("UICorner", L_92_)
@@ -68,8 +68,8 @@ _G.KEY = "q" -- the key is q to use when u see the green dot means it lock on to
 			L_97_.Position = UDim2.new(0, 0, 0, -50)
 			L_97_.Size = UDim2.new(0, 100, 0, 100)
 			L_97_.Font = Enum.Font.SourceSansSemibold
-			L_97_.TextSize = 14
-			L_97_.TextColor3 = Color3.new(1, 1, 1)
+			L_97_.TextSize = 21
+			L_97_.TextColor3 = Color3.new20, 20, 20)
 			L_97_.TextStrokeTransparency = 0
 			L_97_.TextYAlignment = Enum.TextYAlignment.Bottom
 			L_97_.Text = "Bling" .. L_94_arg0.Name
